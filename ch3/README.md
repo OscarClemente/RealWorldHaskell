@@ -42,8 +42,12 @@ Create a function that sorts a list of lists based on the length of each sublist
 ## Exercise 2-07
 Define a function that joins a list of lists together using a separator value.
 
+    See ex2-07.hs
+
 ## Exercise 2-08
 Using the binary tree type that we defined earlier in this chapter, write a function that will determine the height of the tree. The height is the largest number of hops from the root to an Empty. For example, the tree Empty has height zero; Node "x" Empty Empty has height one; Node "x" Empty (Node "y" Empty Empty) has height two; and so on.
+
+    See ex2-08.hs
 
 ## Exercise 2-09
 Consider three two-dimensional points a, b, and c. If we look at the angle formed by the line segment from a to b and the line segment from b to c, it either turns left, turns right, or forms a straight line. Define a Direction data type that lets you represent these possibilities.

@@ -7,3 +7,7 @@ isPalindrome2 (x:xs) = if length xs > 0
                        then (x == (last xs)) && (isPalindrome2 (init xs))
                        else True
 isPalindrome2 _ = True
+
+isPalindrome3 [] = True
+isPalindrome3 (x:[]) = True
+isPalindrome3 (x:xs) = (x == (last xs)) && (isPalindrome3 (init xs))
