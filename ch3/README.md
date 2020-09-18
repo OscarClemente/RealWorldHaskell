@@ -37,6 +37,8 @@ Write a function that determines whether its input list is a palindrome.
 ## Exercise 2-06
 Create a function that sorts a list of lists based on the length of each sublist. (You may want to look at the sortBy function from the Data.List module.)
 
+    See ex2-06.hs
+
 ## Exercise 2-07
 Define a function that joins a list of lists together using a separator value.
 
