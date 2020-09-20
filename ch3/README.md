@@ -66,3 +66,5 @@ Define a function that takes a list of 2D points and computes the direction of e
 
 ## Exercise 2-12
 Using the code from the preceding three exercises, implement Graham's scan algorithm for the convex hull of a set of 2D points. You can find good description of what a convex hull. is, and how the Graham scan algorithm should work, on Wikipedia.
+
+    See ex2-12.hs
